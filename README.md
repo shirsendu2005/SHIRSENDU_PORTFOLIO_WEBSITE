@@ -7,8 +7,8 @@ A B.Tech student and aspiring **Frontend Developer** passionate about building m
 ---
 
 ## 🚀 Live Demo
-🔗 [View Portfolio](#)  
-*(Add your deployed link here — GitHub Pages / Netlify / Vercel)*
+🔗 [View Portfolio](shirsendu-portfolio-website.vercel.app)  
+
 
 ---
 
