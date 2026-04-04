@@ -7,7 +7,7 @@ A B.Tech student and aspiring **Frontend Developer** passionate about building m
 ---
 
 ## 🚀 Live Demo
-🔗 [View Portfolio](shirsendu-portfolio-website.vercel.app)  
+🔗 [shirsendu-portfolio-website.vercel.app](#)  
 
 
 ---
