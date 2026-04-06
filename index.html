@@ -77,7 +77,7 @@
     .mobile-menu {
       display: none; flex-direction: column;
       background: var(--dark2); border-bottom: 1px solid var(--border);
-      position: fixed; top: 63px; left: 0; right: 0; z-index: 999;
+      position: absolute; top: 100%; left: 0; right: 0; z-index: 1001;
       transform: translateY(-15px); opacity: 0;
       transition: all 0.3s; pointer-events: none;
     }
@@ -274,9 +274,7 @@
     <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle Light/Dark Mode">
       <i class="fas fa-moon"></i>
     </button>
-  </nav>
-
-   <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu" id="mobileMenu">
       <a href="#home" onclick="closeMobile()">Home</a>
       <a href="#about" onclick="closeMobile()">About</a>
       <a href="#skills" onclick="closeMobile()">Skills</a>
@@ -284,6 +282,7 @@
       <a href="#projects" onclick="closeMobile()">Projects</a>
       <a href="#contact" onclick="closeMobile()">Contact</a>
     </div>
+  </nav>
 
   <!-- ═══ HERO ═══ -->
   <section id="home">
@@ -494,7 +493,7 @@
       <div class="project-card reveal">
         <div class="project-thumb" style="background:linear-gradient(135deg,#1a0d20,#2d1a40);">✅
           <div class="project-links">
-            <a href="https://mytodoapp-pied.vercel.app/" target="_blank" class="project-link-btn" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            <a href="https://github.com/shirsendu2005/TO-DO-App" target="_blank" class="project-link-btn" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
             <a href="https://github.com/shirsendu2005/TO-DO-App" target="_blank" class="project-link-btn" title="Code"><i class="fab fa-github"></i></a>
           </div>
         </div>
